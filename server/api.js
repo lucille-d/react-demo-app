@@ -1,8 +1,7 @@
 "use strict";
 
 var _ = require('lodash'),
-    CATS = require('./data/cats')
-    .cats;
+    CATS = require('./data/cats.json');
 
 /**
  * Fetch all cats

@@ -5,7 +5,23 @@ html, body {
 body {
     font-family: 'Roboto', Arial, sans-serif;
 }
-
+.card-container {
+    padding-top: 69px;
+}
 .card {
     margin: 10px 10px;
+    padding: 10px;
+}
+.cat-container {
+    display: flex;
+    justify-content: space-between;
+}
+.cat-picture {
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.cat-info {
+    width: 100%;
+    padding: 0 10px;
 }

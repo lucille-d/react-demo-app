@@ -26,7 +26,7 @@ class RateMyKittenApp extends React.Component {
             })
         return (
             <div>
-                <AppBar title="Rate My Kitten"/> {catsNodes}
+                <AppBar style={{position: 'fixed', top: 0}} title="Rate My Kitten"/> <div className="card-container">{catsNodes}</div>
             </div>
         );
     }
