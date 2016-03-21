@@ -1,7 +1,12 @@
 "use strict";
 
 var _ = require('lodash'),
+<<<<<<< HEAD
     CATS = require('./data/cats.json');
+=======
+    CATS = require('./data/cats')
+    .cats;
+>>>>>>> 8587de61fe88b697fc5b0b1b189a0e538f109e63
 
 /**
  * Fetch all cats
