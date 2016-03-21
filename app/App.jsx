@@ -26,11 +26,7 @@ class RateMyKittenApp extends React.Component {
             })
         return (
             <div>
-<<<<<<< HEAD
-                <AppBar style={{position: 'fixed', top: 0}} title="Rate My Kitten"/> <div className="card-container">{catsNodes}</div>
-=======
                 <AppBar title="Rate My Kitten"/> {catsNodes}
->>>>>>> 8587de61fe88b697fc5b0b1b189a0e538f109e63
             </div>
         );
     }

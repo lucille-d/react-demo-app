@@ -5,7 +5,6 @@ html, body {
 body {
     font-family: 'Roboto', Arial, sans-serif;
 }
-<<<<<<< HEAD
 .card-container {
     padding-top: 69px;
 }
@@ -25,9 +24,4 @@ body {
 .cat-info {
     width: 100%;
     padding: 0 10px;
-=======
-
-.card {
-    margin: 10px 10px;
->>>>>>> 8587de61fe88b697fc5b0b1b189a0e538f109e63
 }
