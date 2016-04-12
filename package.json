@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A React demo app to rate kitten made with ES6.",
   "scripts": {
-    "start": "node server/server.js & webpack-dev-server --progress"
+    "start": "webpack-dev-server --progress"
   },
   "author": "Lucille Dhaleine",
   "license": "MIT",
