@@ -6,7 +6,7 @@ import ThumbDown from 'material-ui/lib/svg-icons/action/thumb-down';
 
 export class Cat extends React.Component {
     render() {
-        let cat = this.props.data;
+        let cat = this.props.cat;
         return (
             <Card className="card">
                 <div className="cat-container">

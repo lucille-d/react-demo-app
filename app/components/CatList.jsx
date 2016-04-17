@@ -7,7 +7,7 @@ export class CatList extends React.Component {
             .props
             .cats
             .map((cat) => {
-                return (<Cat key={cat._id} data={cat} voteForCat={this.props.voteForCat}/>);
+                return (<Cat key={cat._id} cat={cat} voteForCat={this.props.voteForCat}/>);
             })
         return (
             <div>

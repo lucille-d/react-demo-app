@@ -9,7 +9,7 @@ import ContentAdd from 'material-ui/lib/svg-icons/content/add';
 import CatAPI from './api/CatAPI.js';
 
 const fabStyle = {
-    position: 'absolute',
+    position: 'fixed',
     bottom: 20,
     right: 20
 };
@@ -82,11 +82,3 @@ class RateMyKittenApp extends React.Component {
 
 ReactDOM.render(
     <RateMyKittenApp/>, document.getElementById('app'));
-
-// <Router>
-//     <Route path="/" handler={Main}>
-//         <IndexRedirect to="/cats"/>
-//         <Route path="/cats" handler={CatList}/>
-//         <Route path="/new" handler={NewCat}/>
-//     </Route>
-// </Router>
